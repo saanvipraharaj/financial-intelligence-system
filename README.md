@@ -207,14 +207,14 @@ The project computes a financial health score using:
 
 # Jupyter Notebook Analysis
 
-An interactive Exploratory Data Analysis (EDA) notebook (`etl/eda_financial_analysis.ipynb`) was built to dynamically query our financial warehouse data. It includes interactive widgets for real-time sector and company breakdown analysis.
+Our Exploratory Data Analysis (EDA) notebook (`etl/eda_financial_analysis.ipynb`) produces several core financial visualizations to analyze the Nifty 100 data.
 
-### Features:
-- **Dynamic Dropdowns**: Multi-level filtering by Sector and individual Company symbols.
-- **Financial Metrics Engine**: Real-time evaluation of compounded sales growth, profit margins, and health trends.
-- **Data Visualizations**: Built using `matplotlib` and `seaborn` for clean financial chart generation.
-
-![Jupyter Notebook](screenshots/jupyter/jupyter.png)
+### Generated Visualizations:
+- **Cash Flow Trend**: ![Cash Flow Trend](screenshots/jupyter/cash%20flow%20trend.png)
+- **Correlation Heatmap**: ![Financial Correlation Heatmap](screenshots/jupyter/heatmap.png)
+- **Net Profit Trend**: ![Net Profit Trend](screenshots/jupyter/net%20profit%20trend.png)
+- **Top 10 Companies by ROE**: ![Top 10 Companies by ROE](screenshots/jupyter/top%2010%20comp.%20by%20roe.png)
+- **Top ROE Companies & Missing Values**: ![Top ROE & Missing Values](screenshots/jupyter/top%20roe%20%26%20missing%20values.png)
 ---
 
 # Setup Instructions
