@@ -207,8 +207,14 @@ The project computes a financial health score using:
 
 # Jupyter Notebook Analysis
 
-![Jupyter Notebook](screenshots/jupyter/jupyter.png)
+An interactive Exploratory Data Analysis (EDA) notebook (`etl/eda_financial_analysis.ipynb`) was built to dynamically query our financial warehouse data. It includes interactive widgets for real-time sector and company breakdown analysis.
 
+### Features:
+- **Dynamic Dropdowns**: Multi-level filtering by Sector and individual Company symbols.
+- **Financial Metrics Engine**: Real-time evaluation of compounded sales growth, profit margins, and health trends.
+- **Data Visualizations**: Built using `matplotlib` and `seaborn` for clean financial chart generation.
+
+![Jupyter Notebook](screenshots/jupyter/jupyter.png)
 ---
 
 # Setup Instructions
